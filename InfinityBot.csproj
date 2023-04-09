@@ -5,11 +5,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <ApplicationIcon>inf_bot.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Resources\favicon.ico" />
+    <Content Include="inf_bot.ico" />
   </ItemGroup>
 
   <ItemGroup>
