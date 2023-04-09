@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="using Serilog" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
 
@@ -42,6 +38,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>VisualAdditional.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Serilog" />
   </ItemGroup>
 
 </Project>

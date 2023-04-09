@@ -61,6 +61,15 @@ namespace InfinityBot.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на lowern1ght.
+        /// </summary>
+        internal static string Author {
+            get {
+                return ResourceManager.GetString("Author", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на   _____        __ _       _ _         ____        _   
         /// |_   _|      / _(_)     (_) |       |  _ \      | |  
         ///   | |  _ __ | |_ _ _ __  _| |_ _   _| |_) | ___ | |_ 
