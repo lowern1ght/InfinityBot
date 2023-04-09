@@ -1,5 +1,5 @@
 ﻿namespace InfinityBot;
 
-public class Bot {
+public class InfinityBot {
 
 }
