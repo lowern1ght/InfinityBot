@@ -1,6 +1,20 @@
-﻿using Pastel;
+﻿
+using Pastel;
+using Remora.Rest;
+using Remora.Commands;
+using Remora.Extensions;
+
+//local
 using InfinityBot.Resources;
-using System.Runtime.InteropServices;
+
+//Remora
+using Remora.Discord;
+using Remora.Discord.API;
+using Remora.Discord.Caching;
+using Remora.Discord.Commands;
+using Remora.Discord.Gateway;
+using Remora.Discord.Interactivity;
+using Remora.Discord.Rest;
 
 namespace InfinityBot;
 

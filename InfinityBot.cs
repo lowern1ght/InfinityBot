@@ -1,6 +1,4 @@
-﻿using Humanizer;
-
-namespace InfinityBot;
+﻿namespace InfinityBot;
 
 public class InfinityBot {
     public static async Task Main() {
