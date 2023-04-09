@@ -3,15 +3,15 @@
   <Class Name="InfinityBot.Visual">
     <Position X="1.25" Y="1.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Visual.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modules\Visual.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="InfinityBot.InfinityBotConfig">
-    <Position X="4.75" Y="2" Width="2.25" />
+  <Class Name="InfinityBot.InfinityBot">
+    <Position X="1.25" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>InfinityBotConfig.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>InfinityBot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
