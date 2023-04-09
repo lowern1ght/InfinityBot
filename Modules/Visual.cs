@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InfinityBot {
-    public class Visual {
+namespace InfinityBot;
+
+internal static class Visual {
+    public static void WriteHeader() {
+
     }
 }
