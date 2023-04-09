@@ -5,6 +5,9 @@ using System.Runtime.InteropServices;
 namespace InfinityBot;
 
 internal static class Visual {
+    /// <summary>
+    /// Write header info about bot
+    /// </summary>
     public static void WriteHeader() {
         Console.WriteLine(VisualAdditional.TitleText.Pastel(System.Drawing.Color.DarkSlateBlue)
             + Environment.NewLine);
