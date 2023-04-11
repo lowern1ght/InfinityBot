@@ -1,13 +1,14 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using InfinityBot.Properties;
+using Microsoft.Extensions.Configuration;
 
 namespace InfinityBot;
 
 public class InfinityBot {
-    private IConfiguration? Configuration { get; init; }
+    private String? Token { get; init; }
 
-    public InfinityBot() { }
-    public InfinityBot(IConfiguration configuration) {
-        Configuration = configuration;
+    public InfinityBot(String? token = null) {
+        Token = token is not null ? token :
+            AppSettings.Default.Token ?? throw new NullReferenceException("Token is null");
     }
 
     public static async Task Main() {
