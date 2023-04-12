@@ -9,7 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Properties\Logger.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="inf_bot.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Modules\Logger.cs" />
   </ItemGroup>
 
   <ItemGroup>

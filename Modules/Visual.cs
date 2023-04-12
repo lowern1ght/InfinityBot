@@ -10,11 +10,11 @@ using InfinityBot.Resources;
 //Remora
 using Remora.Discord;
 using Remora.Discord.API;
-using Remora.Discord.Caching;
-using Remora.Discord.Commands;
-using Remora.Discord.Gateway;
-using Remora.Discord.Interactivity;
 using Remora.Discord.Rest;
+using Remora.Discord.Caching;
+using Remora.Discord.Gateway;
+using Remora.Discord.Commands;
+using Remora.Discord.Interactivity;
 
 namespace InfinityBot;
 
@@ -27,6 +27,6 @@ internal static class Visual {
             + Environment.NewLine);
 
         Console.WriteLine($" Author: {VisualAdditional.Author.Pastel(System.Drawing.Color.Gray)} "
-            +"<3".Pastel(ConsoleColor.Red));
+            +"<3".Pastel(ConsoleColor.Red) + Environment.NewLine);
     }
 }
