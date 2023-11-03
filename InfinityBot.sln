@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo", "repo", "{C45FA6DE-89D9-40D4-BAF2-1A9551CE87E9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F93CC16E-1FFA-4723-A8D7-459B84F36695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9A8C02E7-4AC2-4B7F-91E5-DD308D609DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7C11D39E-274B-48F1-979C-FA8812AD46C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructures", "infrastructures", "{CECDA0C2-8B91-4F85-A77C-D6C5B2E3476C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "storages", "storages", "{D147FA67-226A-4242-9AF9-A717525E9361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C11D39E-274B-48F1-979C-FA8812AD46C4} = {F93CC16E-1FFA-4723-A8D7-459B84F36695}
+		{CECDA0C2-8B91-4F85-A77C-D6C5B2E3476C} = {F93CC16E-1FFA-4723-A8D7-459B84F36695}
+		{D147FA67-226A-4242-9AF9-A717525E9361} = {F93CC16E-1FFA-4723-A8D7-459B84F36695}
+	EndGlobalSection
+EndGlobal
